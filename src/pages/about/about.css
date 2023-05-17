@@ -1,0 +1,167 @@
+.about-container{
+    padding:20px 20px 20px 20px;
+}
+
+.about-first{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first-left{
+    width: 49%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.first-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47%;
+    height: 100%;
+}
+
+.right-content{
+    display: flex;
+    justify-content: space-between;
+    margin:5px 0;
+    align-items: center;
+}
+
+.about-first p{
+    line-height: 1.7;
+    color:rgba(29, 29, 29, 0.8);
+    letter-spacing: 0.5px;
+    text-align: justify;
+    font-size: 15.5px;
+}
+
+h5:first-child{
+    margin-top:0px;
+}
+
+h5{
+    width: 100px;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    
+    /*background-color: rgb(250, 8, 250);*/
+    /*background-color: #128a67;*/
+    background-color: #17a6af;
+    border: solid white 4px;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+}
+
+.about-second{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-second h3{
+    color:#17a6af;
+    font-weight: normal;
+}
+
+.second-content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.content-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-details h4{
+    width: 80%;
+    color: rgba(29, 29, 29);
+}
+
+.content-details span.info{
+    color:rgba(29, 29, 29, 0.8);
+    font-style: italic;
+}
+
+.content-details span.date{
+    width: 15%;
+    color: black;
+    font-size: 14px;
+}
+
+.about-third{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+}
+
+.third-left{
+    width: 48%;
+}
+
+.third-right{
+    width: 48%;
+}
+
+.third-content{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:5px;
+}
+
+.content h6{
+    margin:10px 0;
+}
+
+.third-content h6{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.third-content .hobby-icon{
+    width: 50px;
+    height: 50px;
+    margin:10px 0;
+    color:#17a6af;
+}
+
+.adjust{
+    display: flex;
+    align-items: center;
+}
+
+.third-icon{
+    color:#17a6af;
+    margin-right: 10px;
+    font-size: 12px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width:695px){
+    .about-first{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .first-left, .first-right{
+        width: 100%;
+        margin:5px 0;
+    }
+
+
+}

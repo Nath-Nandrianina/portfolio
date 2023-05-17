@@ -1,0 +1,210 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-content{
+    margin: 40px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   width: 95%;
+}
+
+.contact-left input{
+    height: 40px;
+    margin:10px 0;
+   border-radius: 5px;
+   border:solid #17a6af 1px;
+   outline: none;
+  font-family: poppins;
+}
+
+
+input:focus, textarea:focus{
+    box-shadow: 5px 5px 1px rgba(29, 29, 29, 0.4);
+}
+
+.contact-left-first input:last-child{
+   margin-left:10px;
+}
+
+.contact-left-first{
+    display: flex;
+}
+
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-right{
+    width: 45%;
+   display: flex;
+   flex-direction: column;
+ 
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:12px 0 12px 16px;
+    height: 40px;
+}
+
+.contact-right p{
+    font-size: 15px;
+    color: #132238;
+}
+
+textarea{
+    margin:10px 0 0 0;
+    height:100px;
+    resize: none;
+    border: solid #17a6af 1px;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.contact-content .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #132238;
+    border-radius: 30px;
+    width: 28%;
+    height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.contact-content .btn h4{
+    font-family: poppins;
+}
+
+.contact-right .icon{
+    width: 20px;
+    height: 20px;
+    color:white;
+}
+
+::placeholder{
+    font-family: 'poppins';
+}
+
+.adjust-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #132238;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.contact-left button{
+    outline: none;
+    border: none;
+}
+
+.contact-left .btn-disabled {
+    cursor: default;
+}
+
+.btn-position{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:1340px){
+    form{
+        width: 100%;
+    }
+
+    .contact-left{
+        width: 100%;
+    }
+
+    .contact-left-first input{
+        width: 50%;
+    }
+
+    .contact-left-first{
+        width: 100%;
+    }
+
+    .contact-right{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:850px){
+    
+form{
+    width: 50%;
+}
+
+.contact-right{
+    width: 48%;
+}
+
+.contact-left{
+    width: 100%;
+}
+    
+    img{
+        width: 100%;
+        height: 100px;
+    }
+
+    .contact-content{
+        margin-top: 10px;
+    }
+
+    .contact-content .btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    textarea{
+    height: 80px;
+    }
+}
+
+@media screen and (max-width:730px){
+
+   
+    form{
+        width: 95%;
+    }
+    
+    .contact-left{
+        width: 100%;
+    }
+
+    .contact-left-first input{
+        width: 100%;
+    }
+
+    .contact-left-first{
+        width: 95%;
+    }
+
+    .contact-right{
+        width: 95%;
+    }
+}

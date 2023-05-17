@@ -1,0 +1,150 @@
+.sideBar{
+    position: absolute;
+    top:3%;
+    left:0.7%;
+    width: 5%;
+    height: 65%;
+    background-color: transparent;
+    border-radius: 10px;  
+}
+
+.sideBar-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.bar{
+    display: flex;
+    width: 68px;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #fff;
+    z-index: 5;
+}
+
+li:nth-child(3) h6{
+    font-size: 11px;
+}
+
+.bar-icon{
+    width: 40px;
+    height: 40px;
+   /* color: rgb(194, 24, 194); */
+   color: rgb(22, 21, 21);
+}
+
+.navBar{
+    height: 83%;
+    width: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 8px;
+    z-index: 3;
+}
+
+.navBar.action{
+   width: 0;
+   transition: 1000ms ease;
+}
+
+.navBar.action .nav-icon{
+    opacity: 0;
+    transition: 800ms;
+}
+
+
+
+.navBar-List{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    font-size: 17px;
+    text-transform: uppercase;;
+}
+
+.navBar-List:last-child{
+    padding-bottom: 10px;
+}
+
+.navBar-List:nth-child(1){
+    color:red;
+}
+
+
+li:first-child .nav-icon{
+    height: 25px;
+}
+
+.nav-icon{
+    width: 27px;
+    height: 27px;
+    margin:5px; 
+  /*  color: rgb(194, 24, 194); */
+  color: rgb(22, 21, 21);
+  opacity: 1;
+}
+
+.navBar-List:hover .nav-icon, .navBar-List:hover h6 {
+    color:#17a6af;
+}
+
+
+@media screen and (max-width:850px){
+
+    .sideBar{
+        position: absolute;
+        top:3%;
+        left:1%;
+        width: 95%;
+        height: 8%;
+        margin: 0;
+        padding: 0;
+    }
+        
+    .sideBar-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: center;
+    }
+        
+    .bar{
+        display: flex;
+        width: 8%;
+        height: 100%;
+    }
+
+
+    .navBar{
+        height: 100%;
+        width: 83%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        align-items: center;
+    }
+
+    .nav-icon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .navBar-List h6{
+        font-size: 10px;
+    }
+}

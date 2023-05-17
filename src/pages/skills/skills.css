@@ -1,0 +1,135 @@
+.skills-container{
+    padding:20px 20px 20px 20px;
+}
+
+.skills-language{
+    display: flex;
+    justify-content: space-between;
+}
+
+.language-left, .language-right{
+    width: 50%;
+}
+
+.left-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 0;
+    width: 100%;
+}
+
+.left-container .icon{
+    width: 70px;
+    height: 70px;
+    color:#17a6af;
+}
+
+.test{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-container{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.test-content{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.test-container .icon{
+    font-size: 35px;
+}
+
+.tools-container{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.first-tools, .second-tools{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tools-container .tools-icon{
+    font-size: 50px;
+    color:red;
+}
+
+.tools-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin:10px;
+}
+
+.icon-tools{
+    width: 90px;
+    height: 80px;
+}
+
+.language-container{
+    width: 100%;
+    height: auto;
+}
+
+.language-content{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 0;
+    align-items: center;
+}
+
+.language-content h2{
+    font-weight: normal;
+}
+
+
+
+.language-content h2{
+    width: 200px;
+}
+
+@media screen and (max-width:700px){
+    .skills-language{
+        flex-direction: column;
+    }
+    .language-left, .language-right{
+        width: 100%;
+    }
+
+    .language-content img{
+        margin-left:15px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .tools-container{
+        margin:0 0;
+    }
+ 
+    .left-container .icon{
+        width: 50px;
+        height: 50px;
+    }
+    .icon-tools{
+        width: 60px;
+        height: 50px;
+    }
+
+}

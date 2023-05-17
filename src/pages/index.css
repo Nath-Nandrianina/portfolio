@@ -1,0 +1,22 @@
+.home, .about, .projects, .singleProject, .skills, .contact{
+    position: relative;
+    top:3%;
+    left:44%;
+    background-color: #fff;
+    width: 55%;
+    height: 95%;
+    overflow-y: auto;
+}
+
+
+@media screen and (max-width:850px){
+    .home, .about, .projects, .singleProject, .skills, .contact{
+        position: absolute;
+        top:31.5%;
+        left:3%;
+        width: 93%;
+        height: 68%;
+        border-radius: 5px;
+    }
+}
+

@@ -1,0 +1,23 @@
+.titleHeading{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    color: #132238;
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top:20px;
+    font-family: 'Open sans';
+}
+
+.titleHeading:first-child{
+    margin-top: 0;
+}
+
+.bars{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    border-bottom: solid 3px #17a6af;/* rgb(250, 8, 250);*/
+}
