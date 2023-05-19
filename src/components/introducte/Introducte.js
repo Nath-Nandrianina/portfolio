@@ -1,7 +1,7 @@
 import React from 'react'
 import './introducte.css'
 import { FaFacebook, FaLinkedin, FaGit } from 'react-icons/fa'
-import myPicture from './Ident.png.png'
+import myPicture from './Ident.png'
 
 const Introducte = () => {
    // <img src={myPicture} width="200px" height="200px" alt="myPicture"/>
