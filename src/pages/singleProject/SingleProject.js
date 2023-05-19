@@ -5,7 +5,6 @@ import HeadingProject from '../../common/header/HeadingProject'
 import { projectDatas } from '../../data/projectData'
 import TitleHeading from '../../common/title/TitleHeading'
 import {FaLink, FaArrowLeft} from 'react-icons/fa'
-
 // import Overlay from '../../components/overlay/Overlay'
 
 const SingleProject = () => {
@@ -31,7 +30,6 @@ const SingleProject = () => {
 
         <div className='singleProject-container'>
          
-
           <div className='singleProject-content'>
 
             <p className='rectification'>
@@ -85,7 +83,7 @@ const SingleProject = () => {
                       <Link className='llink' to={`/project/${id}/${item.id2}`}>
                         
                         <div className='singleProject-parent'>
-                        <img className='picture' src={item.image2}  alt={item.image2}/>
+                        <img className='picture' src={process.env.PUBLIC_URL +`${item.image2}`}  alt={item.image2}/>
                         <h6 className='text-info'>{item.title2}</h6>
                         <FaLink className='img-link'/>
                         </div>

@@ -37,7 +37,7 @@ useEffect(()=>{
                 {
                   theProject.projectImg.map((item, index)=>{
                     return(
-                      <img className="imagesProject" key={index} src={item} alt="single img project"/>
+                      <img className="imagesProject" key={index} src={process.env.PUBLIC_URL +`${item}`} alt="single img project"/>
                     )
                   })
                 }
@@ -46,7 +46,7 @@ useEffect(()=>{
               :
               (  
               <div className='overlay-left'>
-                <img className=  {` ${theProject.special ? (`specialImageProject`) : ("simpleImageProject") }`} src={theProject.projectImg} alt={theProject.title2}/>
+                <img className=  {` ${theProject.special ? (`specialImageProject`) : ("simpleImageProject") }`} src={process.env.PUBLIC_URL +`${theProject.projectImg}`} alt={theProject.title2}/>
               </div>
               )
             }

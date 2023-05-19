@@ -44,7 +44,7 @@ const Skills = () => {
                     
                     return(
                         <div className='left-container'>
-                            <img className='icon' src={item.img} alt={item.name}/>
+                            <img className='icon' src={process.env.PUBLIC_URL + `${item.img}`} alt={item.name}/>
                             <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} />
                         </div>
                     )
@@ -56,7 +56,7 @@ const Skills = () => {
                     
                     return(
                         <div className='left-container'>
-                             <img className='icon' src={item.img} alt={item.name}/>
+                             <img className='icon' src={process.env.PUBLIC_URL + `${item.img}`} alt={item.name}/>
                             <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} />
                         </div>
                     )
@@ -91,22 +91,22 @@ const Skills = () => {
                 </div>
                 <div className='second-tools'>
                     <div className='tools-content'>
-                        <img className='icon-tools' src={image[8]} alt="img"/>
+                        <img className='icon-tools' src={process.env.PUBLIC_URL + `${image[8]}`} alt="img"/>
                             <h3>Figma</h3>
                         </div>
 
                         <div className='tools-content'>
-                        <img className='icon-tools' src={image[9]} alt="img"/>
+                        <img className='icon-tools' src={process.env.PUBLIC_URL + `${image[9]}`} alt="img"/>
                             <h3>Git</h3>
                         </div>
 
                         <div className='tools-content'>
-                        <img className='icon-tools' src={image[10]} alt="img"/>
+                        <img className='icon-tools' src={process.env.PUBLIC_URL + `${image[10]}`} alt="img"/>
                             <h3>Linux</h3>
                         </div>
 
                         <div className='tools-content'>
-                        <img className='icon-tools' src={image[11]} alt="img"/>
+                        <img className='icon-tools' src={process.env.PUBLIC_URL + `${image[11]}`} alt="img"/>
                             <h3>PhotoShop</h3>
                         </div>
                     </div>
@@ -124,15 +124,15 @@ const Skills = () => {
                 
                 <div className='language-content'>
                     <h2>Anglais</h2>
-                    <img src={image[12]} width="200px" alt="langue"/>
+                    <img src={process.env.PUBLIC_URL + `${image[12]}`} width="200px" alt="langue"/>
                 </div>
                 <div className='language-content'>
                     <h2>Francais</h2>
-                    <img src={image[13]} width="200px" alt="langue"/>
+                    <img src={process.env.PUBLIC_URL + `${image[13]}`} width="200px" alt="langue"/>
                 </div>
                 <div className='language-content'>
                     <h2>Malagasy</h2>
-                    <img src={image[14]} width="200px" alt="langue"/>
+                    <img src={process.env.PUBLIC_URL + `${image[14]}`} width="200px" alt="langue"/>
                 </div>
                 
             </div>
@@ -144,65 +144,3 @@ const Skills = () => {
 
 export default Skills
 
-/*
-
-            <div className='skills-language'>
-
-                <div className='language-left'>
-                    <div className='left-container'>
-                        <FaHtml5 className='icon'/>
-                        <ProgressBar bgcolor="blue" completed="60" />
-                    </div>
-                    <div className='left-container'>
-                        <FaCss3 className='icon'/>
-                        <ProgressBar bgcolor="red" completed="60" />
-                    </div>
-                    <div className='left-container'>
-                        <FaPhp className='icon'/>
-                        <ProgressBar bgcolor="blue" completed="60" />
-                    </div>
-                    <div className='left-container'>
-                        <FaJava className='icon'/>
-                        <ProgressBar bgcolor="red" completed="60" />
-                    </div>
-                </div>
-
-                <div className='language-right'>
-                <div className='left-container'>
-                        <FaJs className='icon'/>
-                        <ProgressBar bgcolor="yellow" completed="60" />
-                    </div>
-                    <div className='left-container'>
-                        <FaNode className='icon'/>
-                        <ProgressBar bgcolor="black" completed="60" />
-                    </div>
-                    <div className='left-container'>
-                        <FaReact className='icon'/>
-                        <ProgressBar bgcolor="blue" completed="60" />
-                    </div>
-                    <div className='left-container'>
-                        <FaJava className='icon'/>
-                        <ProgressBar bgcolor="red" completed="60" />
-                    </div>
-                </div>
-
-            </div>
-
-
-
-
-             {testData.map((item, idx) => {
-                    
-                    return(
-                        <div className='test-container'>
-                            <div className='test-content'>
-                                <h2 className='icon'>{item.icon}</h2>
-                                <span>{item.name}</span>
-                            </div>    
-                            
-                            <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} />
-                        </div>
-                    )
-                })}
-
-*/

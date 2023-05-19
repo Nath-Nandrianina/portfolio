@@ -2,7 +2,7 @@ import React from 'react'
 import '../index.css'
 import TitleHeading from '../../common/title/TitleHeading'
 import './about.css'
-import {FaBaseballBall, FaMusic, FaFilm, FaRoad, FaDotCircle} from 'react-icons/fa'
+import {FaBaseballBall, FaMusic, FaFilm, FaRoad, FaDotCircle, FaBicycle, FaChess} from 'react-icons/fa'
 
 const About = () => {
   return (
@@ -14,9 +14,8 @@ const About = () => {
             <div className='about-first'>
                 <div className='first-left'>
                     <p>
-                        HI! I am RAMANAMAHEFA Nandrianina Nandrianina, developper front with React and Back with NodeJs.
-                        From Madagascar in Tananarivo the capital. I have rich experience during me cursus from Superior Institute Polytechnique of Madagascar
-                         (ISPM) and with multiple project.
+                    Bonjour ! Je suis RAMANAMAHEFA Nandrianina Nandrianina, développeur front avec React et Back avec NodeJs.
+                    Je viens de Madagascar à Tananarivo le capital. J'ai pu acquérir de riches expériences durant mon cursus au sein de l'Institut Supérieur Polytechnique de Madagascar (ISPM) grâce aux divers projets qui ont été effectués.
                     </p>
                 </div>
                 <div className='first-right'>
@@ -139,8 +138,8 @@ const About = () => {
                             <FaRoad className='hobby-icon'/>
                         </div>
                         <div className='content'>
-                            <FaBaseballBall className='hobby-icon'/>
-                            <FaRoad className='hobby-icon'/>
+                            <FaChess className='hobby-icon'/>
+                            <FaBicycle className='hobby-icon'/>
                         </div>
                     </div>
                 </div>
