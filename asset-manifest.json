@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1002dd15.css",
-    "main.js": "/portfolio/static/js/main.5e70b983.js",
-    "static/media/moi2.png": "/portfolio/static/media/moi2.e16276f052d09c443c86.png",
+    "main.js": "/portfolio/static/js/main.134c16d8.js",
+    "static/media/Ident.png": "/portfolio/static/media/Ident.8a50c13c9b98bf990e8b.png",
     "static/media/fond-contact.png": "/portfolio/static/media/fond-contact.94df960f1f35ae4f4e29.png",
     "static/media/introduce-back.jpg": "/portfolio/static/media/introduce-back.84c892beaac8debd5476.jpg",
     "static/media/Back2.jpg": "/portfolio/static/media/Back2.bba69acda65692b494db.jpg",
     "index.html": "/portfolio/index.html",
     "main.1002dd15.css.map": "/portfolio/static/css/main.1002dd15.css.map",
-    "main.5e70b983.js.map": "/portfolio/static/js/main.5e70b983.js.map"
+    "main.134c16d8.js.map": "/portfolio/static/js/main.134c16d8.js.map"
   },
   "entrypoints": [
     "static/css/main.1002dd15.css",
-    "static/js/main.5e70b983.js"
+    "static/js/main.134c16d8.js"
   ]
 }
