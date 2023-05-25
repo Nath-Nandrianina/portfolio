@@ -3,7 +3,7 @@ export const skillsData = [
     "/images/img-Skills/Css.png",
     "/images/img-Skills/javascript.png",
     "/images/img-Skills/Php.png",
-    "/images/img-Skills/java.png",
+    "/images/img-Skills/Java.png",
     "/images/img-Skills/Node.png",
     "/images/img-Skills/React.png",
     "/images/img-Skills/CSharp.png",
@@ -29,7 +29,7 @@ export const projectDatas = [{
                 time: "08 January - 2020",
                 summary: "« J’Apprend » est un logiciel qui sert à apprendre les bases aux enfants. Elle consiste alors à apprendre à écrire, à lire, etc. Elle tend dans le domaine de la technologie car elle peut aider le travail d’un(e) instituteur(ice).",
                 description:"J'apprend est un logiciel d’apprentissage destinée aux enfants au début de leurs cursus scolaires. Ce projet leurs permets donc à la fois de s’éduquer et de s’amuser. Elle contient alors divers leçons et exercices mais aussi d’autres choses. Le logiciel leurs permet de s’initier déjà dans le monde de la technologie en les apprenant à lire, à écrire, … directement sur des plateformes plus intéressant et innovant qu’avant.",
-                image:'images/img-Apprend/apprend.png',
+                image:'/images/img-Apprend/apprend.png',
                 info:'projet de recherche',
                 methode:[
                     "Methode MERISE",
@@ -122,7 +122,7 @@ export const projectDatas = [{
                 time: "5 Juillet - 2018",
                 summary: "Ndao Fantarina est une application à faire un sondage en ligne auprès de la population en vue d'établir une statistique aidant à trouver une solution et à faire des études sur ces résultats.",
                 description:"Ndao Fantarina une application web capable de réaliser des performances dans le domaine de la communication, elle permet de faire des sondages permettant de faire des votes virtuellement au avantage de la population.",
-                image:'images/img-probe/Ndao-fantarina.png',
+                image:'/images/img-probe/Ndao-fantarina.png',
                 info:'projet de recherche',
                 methode:[
                     "Modele MVC",
@@ -199,7 +199,7 @@ export const projectDatas = [{
                 time: "04 June - 2022",
                 summary: "L'application Quiz Marvel est une application de quiz centre sur le monde de Marvel. Elle propose différents niveaux de jeu ' débutant ', ' confirmée ' et ' expert ' alors soyez le bienvenu et bon jeu.",
                 description:"Quiz Marvel est une application web de jeu de quiz centré sur le monde de Marvel. Le joueur doit s'inscrire et se connecter a son compte pour pouvoir jouer. Ce projet d'application m'a permis de m'exercer sur la bibliothèque JavaScript React.",
-                image:'images/img-Quiz/image-Quiz.jpg',
+                image:'/images/img-Quiz/image-Quiz.jpg',
                 info:'projet d\'application',
                 methode:[],
                     technologies:[
@@ -208,16 +208,16 @@ export const projectDatas = [{
                             body : ": langage de struration et de mise en forme."
                         },
                         {
-                            head : "Librairie React",
-                            body : ": "
+                            head : "Framework React",
+                            body : ": librairie Javascript qui aide au développement d'interface utilisateur."
                         },
                         {
                             head : "React Hooks",
-                            body : ": "
+                            body : ": fonctions de mieux gerer l'état local et de cycle de vie de React depuis des composants."
                         },
                         {
                             head : "Firebase",
-                            body : ": "
+                            body : ": ensemble d'outils pour l'hébergement et le développement d'applications mobiles et web."
                         },
                         {
                             head : "Plusieurs Librairie et API",
@@ -267,7 +267,7 @@ export const projectDatas = [{
                 time: "26 October - 2019",
                 summary: "LGP pour Logiciel de Gestion et de Planning est un logiciel destiné a la gestion de stock et de gestion de planning de maintenance adapter pour les techniciens de l'ASECNA Toamasina.",
                 description:" LGP pour Logiciel de Gestion et de Planning est un logiciel qui se base sur le concept du client serveur bien plus pratique avec une technologie d'acces à distance permettant le travail à plusieurs endroits à la fois. Il est spécialement conçu pour être utilisé par les employés du département de maintenance (MIRE) qui sont responsables du bon fonctionnement de tous les équipements radio éléctrique de l'ASECNA. Il regroupe deux fonctionnalités pratiques telles que la gestion des matériels et la création d'un planing de travail personnalisé selon les travaux à effectuer.",
-                image:'images/img-LGP/LGP.png',
+                image:'/images/img-LGP/LGP.png',
                 info:'projet de recherche',
                 methode:[
                     "Methode MERISE",

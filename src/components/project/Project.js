@@ -47,7 +47,7 @@ const Project = (props) => {
                         pathname: `/project/${item.title.replace(/\s+/g, "").trim()}`,
                         }}
                     >
-                        <img src={process.env.PUBLIC_URL +`${item.image}`}  alt={item.title} />
+                        <img src={process.env.PUBLIC_URL + `${item.image}`}  alt={item.title} />
                     </Link>               
                     </div>   
                 </div>   

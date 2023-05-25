@@ -148,3 +148,19 @@ li:first-child .nav-icon{
         font-size: 10px;
     }
 }
+
+@media screen and (max-width:350px){
+.navBar h6{
+    display: none; 
+    opacity: 0;
+}
+
+}
+
+@media screen and (max-height:500px){
+    .navBar h6{
+        display: none; 
+        opacity: 0;
+    }
+    
+}

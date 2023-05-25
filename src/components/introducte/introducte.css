@@ -170,7 +170,15 @@ img.me{
         display: none;
         opacity: 0;
     }
+    
     .introducte-container{
         justify-content: center;
+    }
+}
+
+@media screen and (max-height:500px){
+    .network li{
+        display: none;
+        opacity:0;
     }
 }

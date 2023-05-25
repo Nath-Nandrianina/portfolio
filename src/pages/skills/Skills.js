@@ -33,7 +33,7 @@ const Skills = () => {
        
         <div className='skills-container'>
         <TitleHeading>
-           Programation language
+           langage de Programmation
         </TitleHeading>
 
         <div className='skills-language'>
@@ -66,7 +66,7 @@ const Skills = () => {
 
 
             <TitleHeading>
-                Tools & others
+                Outils & autres
             </TitleHeading>
             
             <div className='tools-container'>
@@ -117,22 +117,22 @@ const Skills = () => {
                
 
             <TitleHeading>
-                language
+                langues
             </TitleHeading>
            
             <div className='language-container'>
                 
                 <div className='language-content'>
                     <h2>Anglais</h2>
-                    <img src={process.env.PUBLIC_URL + `${image[12]}`} width="200px" alt="langue"/>
+                    <img src={process.env.PUBLIC_URL + `${image[12]}`}  alt="langue"/>
                 </div>
                 <div className='language-content'>
                     <h2>Francais</h2>
-                    <img src={process.env.PUBLIC_URL + `${image[13]}`} width="200px" alt="langue"/>
+                    <img src={process.env.PUBLIC_URL + `${image[13]}`}  alt="langue"/>
                 </div>
                 <div className='language-content'>
                     <h2>Malagasy</h2>
-                    <img src={process.env.PUBLIC_URL + `${image[14]}`} width="200px" alt="langue"/>
+                    <img src={process.env.PUBLIC_URL + `${image[14]}`}  alt="langue"/>
                 </div>
                 
             </div>

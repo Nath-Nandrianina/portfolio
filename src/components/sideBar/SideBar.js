@@ -17,7 +17,7 @@ function SideBar() {
             
             <ul className= "navBar">  {/* {`${first ? ('navBar action') : ('navBar')}`} */}
                 <li>
-                    <Link to='/' className='navBar-List'>
+                    <Link to='/portfolio' className='navBar-List'>
                         <CiHome className='nav-icon'/>
                         <h6>Accueil</h6>
                     </Link>

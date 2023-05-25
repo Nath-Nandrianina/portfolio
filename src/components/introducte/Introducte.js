@@ -15,18 +15,18 @@ const Introducte = () => {
             <h1>RAMANAMAHEFA Nandrianina Nathanael</h1>
             <ul className='network'>
                 <li>
-                    <a href="https://www.facebook.com/nathanael.ramanamahefa" target='_blank' rel="noreferrer">
+                    <a href="%PUBLIC_URL%/https://www.facebook.com/nathanael.ramanamahefa" target='_blank' rel="noreferrer">
                         <FaFacebook className='network-icon'/>
                     </a>
                 </li>
                
                 <li>
-                    <a href='https://github.com/Nath-Nandrianina' target='_blank' rel="noreferrer">
+                    <a href='%PUBLIC_URL%/https://github.com/Nath-Nandrianina' target='_blank' rel="noreferrer">
                         <FaGit className='network-icon'/>
                     </a>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/nathanael-ramanamahefa-0a2149255/' target='_blank' rel="noreferrer">
+                    <a href='%PUBLIC_URL%/https://www.linkedin.com/in/nathanael-ramanamahefa-0a2149255/' target='_blank' rel="noreferrer">
                         <FaLinkedin className='network-icon'/>
                     </a>
                 </li>

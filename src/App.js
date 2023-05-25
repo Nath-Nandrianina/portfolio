@@ -1,7 +1,7 @@
 import './App.css';
 import SideBar from './components/sideBar/SideBar';
 import Introducte from './components/introducte/Introducte';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
@@ -20,13 +20,13 @@ function App() {
           <Routes>
             <Route path='/project/:id/:myData' exact Component={Overlay} />
 
-            <Route path='/' exact Component={Home}/>
+            <Route path='/portfolio' exact Component={Home}/>
             <Route path='/about' exact Component={About}/>
             <Route path='/project' exact Component={Projects}/>
             <Route path='/project/:id' exact Component={SingleProject}/>
             <Route path='skills' exact Component={Skills} />          
             <Route path='/contact' exact Component={Contact} />  
-            <Route to='/'/>     
+            <Route path='*'  element={ <Navigate to="/portfolio" replace/>}/>     
           </Routes> 
       </div>
     </div>

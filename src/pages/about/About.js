@@ -9,7 +9,7 @@ const About = () => {
     <div className='about'>
         <div className='about-container'>
             <TitleHeading>
-                About
+                A Propos
             </TitleHeading>
             <div className='about-first'>
                 <div className='first-left'>
@@ -26,7 +26,7 @@ const About = () => {
                         </div>
 
                         <div className='right-content'>
-                            <h5> Residence </h5>
+                            <h5> Lieu </h5>
                             <p> Antananarivo/Mscar</p>        
                         </div>
                         <div className='right-content'>
@@ -34,7 +34,7 @@ const About = () => {
                             <p> Ampandrana Ouest</p>        
                         </div>
                         <div className='right-content'>
-                            <h5> Phone number </h5>
+                            <h5> Téléphone </h5>
                             <p> +261 34 46 901 69</p>        
                         </div>
                         
@@ -49,18 +49,18 @@ const About = () => {
             <div className='second-content'>
                     <h3> Fin de parcours en Master 2</h3>
                     <div className='content-details'>
-                        <h4>Institut Superieur Poytechnique de Madagascar <br/>
-                            <span className='info'>filiere Informatique de Gestion Genie Logiciel et Inteligence Artificielle</span>
+                        <h4>Institut Supérieur Poytechnique de Madagascar <br/>
+                            <span className='info'>filiere Informatique de Gestion Génie Logiciel et Inteligence Artificielle</span>
                         </h4>
                         <span className='date'>| 2021 - 2023</span>
                     </div>        
                 </div>    
 
                 <div className='second-content'>
-                    <h3>  Diplome de licence</h3>
+                    <h3>  Diplôme de licence</h3>
                     <div className='content-details'>
-                        <h4>Institut Superieur Poytechnique de Madagascar <br/>
-                        <span className='info'>  filiere Informatique de Gestion Genie Logiciel et Inteligence Artificielle </span>
+                        <h4>Institut Supérieur Poytechnique de Madagascar <br/>
+                        <span className='info'>  filière Informatique de Gestion Génie Logiciel et Inteligence Artificielle </span>
                         </h4>
                         <span className='date'>| 2017 - 2020</span>
                     </div>        
@@ -78,11 +78,11 @@ const About = () => {
                 </div>    
 
                 <div className='second-content'>
-                    <h3>  Diplome de Baccalaureat</h3>
+                    <h3>  Diplôme de Baccalauréat</h3>
                     <div className='content-details'>
-                    <h4> Lycee Jacques RABEMANANJARA Toamasina <br/>  
+                    <h4> Lycée Jacques RABEMANANJARA Toamasina <br/>  
                         <span className='info'>     
-                            serie Scientifique D 
+                            série Scientifique D 
                         </span></h4>
                         <span className='date'>| 2012 - 2016</span>
                     </div>
@@ -92,14 +92,14 @@ const About = () => {
             <div className='about-third'>
                 
                     <TitleHeading>
-                        Caracters
+                        Caractèrs
                     </TitleHeading>
                     
                     <div className='third-content'>
                         <div className='content'>
                             <div className='adjust'>
                                 <FaDotCircle className='third-icon'/> 
-                                <h6>serieux</h6>
+                                <h6>sérieux</h6>
                             </div>
                             <div className='adjust'>
                                 <FaDotCircle className='third-icon'/> 
@@ -117,7 +117,6 @@ const About = () => {
                                 <h6>respectieux</h6>
                             </div>
                         </div>
-                      
                     </div>
                 </div>
 
